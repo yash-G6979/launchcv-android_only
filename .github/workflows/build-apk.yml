@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip LaunchCV_Android_Project.zip
+          unzip launchcv-android_only/LaunchCV_Android_Project.zip
           cd LaunchCV_Android
           echo "PROJECT_DIR=$PWD" >> "$GITHUB_ENV"
 
